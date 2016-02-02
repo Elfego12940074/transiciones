@@ -1,0 +1,62 @@
+<!DOCTYPE HTML-->
+<HTML>
+<head>
+    <link rel="stylesheet" href="css/jquery.mobile-1.4.5.css"/>
+<link rel="stylesheet" href="css/jquery.mobile.theme-1.4.5.min.css"/>
+<link rel="stylesheet" href="css/jquery.mobile.structure-1.4.5.min.css"/>
+<script type="text/javascript" src="js/jquery-2.2.0.min.js"></script>
+<script type="text/javascript" src="js/jquery.mobile-1.4.5.min.js"></script>
+
+<style type="text/css">
+#encabezado{
+text-align:center;
+font-size:14px;
+color:green;
+font-weight:bold;
+}
+#pie{
+text-align:center;
+font-size:10px;
+color:red;
+font-weight:bold;
+}
+</style>
+</head>
+<body>
+<div data-role="page" id="principal">
+     <div data-role="header">
+          <h1> Mi Aplicación</h1>
+     </div>
+     <div data-role="content">
+          <p id="encabezado">Hola Guapo</p>
+          <a href="#Segunda" data-role="button" data-transition="slideup">Transición hacia arriba</a>
+          <a href="#Segunda" data-role="button" data-transition="slidedown">Transición hacia abajo</a>
+          <a href="#Segunda" data-role="button" data-transition="top">Transición Top</a>
+          <a href="#Segunda" data-role="button" data-transition="flip">Transición Flip</a>
+          <a href="#Segunda" data-role="button" data-transition="fade">Transición Flow</a>
+          <a href="#Segunda" data-role="button" data-transition="slidefade">Transición slidefade</a>
+          <a href="#Segunda" data-role="button" data-transition="turn">Transición Turn</a>
+          <a href="#Segunda" data-role="button" data-transition="none">Transición ninguno</a>
+          
+     </div>
+     <div data-role="footer">
+             <div data-role="controlgroup" data-type="horizontal">
+             <a href="#Segunda" class="ui-btn ui-icon-info-white ui-icon-left">Abrir</a>
+             <a href="#" class="ui-btn">shippuden tv</a>
+             <a href="#" class="ui-btn">animeflv</a>
+         <!-- <p id="pie">pie de pagina</p>-->
+     </div>
+</div>
+<div data-role="page" id="Segunda">
+     <div data-role="header">
+          <h1>Mi aplicación 2</h1>
+     </div>
+     <div data-role="content">
+          <p>Que hongo</p>
+     </div>
+     <div data-role="footer">
+          <p>pie de pagina 2</p>
+     </div>
+</div>
+</body>
+</html>
